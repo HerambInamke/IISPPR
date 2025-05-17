@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "./imgs/imgs"
+import { images } from "./images/images.js"
 
 const Description = () => {
   return (
@@ -24,7 +24,7 @@ const Description = () => {
         </div>
       </div>
 
-      <div className="max-w-xl text-center lg:text-left lg:mt-10 mt-20">
+      <div className="max-w-xl text-center lg:text-left lg:mt-10 mt-14 md:mt-1">
         <h2 className="text-4xl font-[playfair] font-bold text-gray-900 mb-6 mt-6 md:mt-32">Education</h2>
         <p className="text-gray-700 font-[montserrat] text-base leading-relaxed max-w-md mx-auto lg:mx-0">
           At IISPPR, we believe every child deserves a strong foundation. From early childhood to elementary education, we uncover the gaps that hold children back and create solutions rooted in their realities. With two schools in Saharanpur district, Uttar Pradesh, we work hand-in-hand with children, families, and communities, partnering with both hearts and governments to bring lasting change in education.

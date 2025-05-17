@@ -1,5 +1,5 @@
 import React from 'react';
-import {images} from "./imgs/imgs.js";
+import {images} from "./images/images.js";
 import MissionCard from "./MissionCard.jsx";
 
 const FrostedTextBgOutline = ({text}) => {
@@ -13,7 +13,7 @@ const FrostedTextBgOutline = ({text}) => {
     )
 }
 
-const HeroAbout = () => {
+const HeroSection = () => {
     return (
         <section className="relative w-full h-screen overflow-hidden">
             {/* Background Image */}
@@ -41,4 +41,4 @@ const HeroAbout = () => {
 
 }
 
-export default HeroAbout;
+export default HeroSection;
