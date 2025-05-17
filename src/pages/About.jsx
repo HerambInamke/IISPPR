@@ -1,5 +1,5 @@
 import React from 'react';
-import {images} from "../../public/about/images.js"
+import {images} from "../assets/about/images.js"
 import HeroSection from "../components/about/HeroSection.jsx";
 import Description from "../components/about/Description.jsx";
 import StatsSection from "../components/about/StatsSection.jsx";
