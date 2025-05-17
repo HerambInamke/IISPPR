@@ -29,26 +29,26 @@ const StatsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-primary text-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Our Impact in Numbers</h2>
-          <p className="text-white/80 max-w-2xl mx-auto">
-            We measure our success not just in numbers, but in the positive change we bring to communities and the environment.
-          </p>
-        </div>
+      <section className="py-20 bg-primary text-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4">Our Impact in Numbers</h2>
+            <p className="text-white/80 max-w-2xl mx-auto">
+              We measure our success not just in numbers, but in the positive change we bring to communities and the environment.
+            </p>
+          </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {stats.map(stat => (
-            <div key={stat.id} className="text-center">
-              <div className="text-5xl font-bold mb-2">{stat.number}</div>
-              <h3 className="text-xl font-semibold mb-2">{stat.label}</h3>
-              <p className="text-white/80">{stat.description}</p>
-            </div>
-          ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {stats.map(stat => (
+                <div key={stat.id} className="text-center">
+                  <div className="text-5xl font-bold mb-2">{stat.number}</div>
+                  <h3 className="text-xl font-semibold mb-2">{stat.label}</h3>
+                  <p className="text-white/80">{stat.description}</p>
+                </div>
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
   );
 };
 

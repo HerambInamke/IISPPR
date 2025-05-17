@@ -3,7 +3,7 @@ import Layout from '../components/layout/Layout';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
-import Gallery1 from '../pages/Gallery1';
+import Gallery1 from '../pages/Gallery.jsx';
 import Projects from '../pages/Projects';
 import Testimonials from '../pages/Testimonials';
 
