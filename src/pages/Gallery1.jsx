@@ -6,42 +6,42 @@ const Gallery1 = () => {
     {
       id: 1,
       title: 'Forest Conservation',
-      image: '/src/assets/images/gallery/gallery1.jpg',
+      image: '/src/assets/about/gallery/gallery1.jpg',
       category: 'Nature',
       description: 'Our forest conservation efforts in action'
     },
     {
       id: 2,
       title: 'Community Workshop',
-      image: '/src/assets/images/gallery/gallery2.jpg',
+      image: '/src/assets/about/gallery/gallery2.jpg',
       category: 'Community',
       description: 'Engaging with local communities'
     },
     {
       id: 3,
       title: 'Wildlife Sanctuary',
-      image: '/src/assets/images/gallery/gallery3.jpg',
+      image: '/src/assets/about/gallery/gallery3.jpg',
       category: 'Wildlife',
       description: 'Protecting endangered species'
     },
     {
       id: 4,
       title: 'Tree Planting',
-      image: '/src/assets/images/gallery/gallery4.jpg',
+      image: '/src/assets/about/gallery/gallery4.jpg',
       category: 'Conservation',
       description: 'Our reforestation initiatives'
     },
     {
       id: 5,
       title: 'Environmental Education',
-      image: '/src/assets/images/gallery/gallery5.jpg',
+      image: '/src/assets/about/gallery/gallery5.jpg',
       category: 'Education',
       description: 'Teaching sustainable practices'
     },
     {
       id: 6,
       title: 'Clean Energy',
-      image: '/src/assets/images/gallery/gallery6.jpg',
+      image: '/src/assets/about/gallery/gallery6.jpg',
       category: 'Energy',
       description: 'Promoting renewable energy solutions'
     }

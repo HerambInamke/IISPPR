@@ -4,32 +4,32 @@ import { Handshake, Users, Heart, Globe } from "lucide-react";
 const stats = [
   {
     icon: <Handshake className="w-20 h-20 text-[#568C20]" />,
-    value: "4597+",
-    label: "People Rised",
+    value: "10K+",
+    label: "People Reached",
     progress: "75 25",
   },
   {
     icon: <Users className="w-20 h-20 text-[#568C20]" />,
-    value: "8945+",
-    label: "Volunteer",
+    value: "50k+",
+    label: "People on Social Media",
     progress: "80 20",
   },
   {
     icon: <Heart className="w-20 h-20 text-[#568C20]" />,
-    value: "10M+",
-    label: "Poor People Saved",
+    value: "8k+",
+    label: "Women reached",
     progress: "85 15",
   },
   {
     icon: <Globe className="w-20 h-20 text-[#568C20]" />,
-    value: "100+",
-    label: "Country Member",
+    value: "53",
+    label: "Country Research Communities",
     progress: "50 50",
   },
 ];
 
 const StatCard = ({ icon, value, label, progress }) => (
-  <div className="bg-[#4D932426] flex flex-col items-center justify-center p-6 w-full pb-10">
+  <div className="bg-[#4D932426] flex flex-col items-center justify-center p-6 w-full pb-10 font-[montserrat]">
     <div className="relative w-32 h-32 m-4 bg-white rounded-full">
       <svg className="absolute top-0 left-0 w-full h-full" viewBox="0 0 36 36">
         <circle
@@ -65,11 +65,15 @@ const StatCard = ({ icon, value, label, progress }) => (
 
 const StatsSection = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-8 container mt-10 mx-auto">
-      {stats.map((stat, index) => (
-        <StatCard key={index} {...stat} />
-      ))}
-    </div>
+      <div className="flex flex-col items-center pt-14">
+        <h2 className="font-[playfair] text-4xl font-bold text-gray-900">Our Reach in Numbers</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-8 container mt-5 mx-auto">
+          {stats.map((stat, index) => (
+              <StatCard key={index} {...stat} />
+          ))}
+        </div>
+      </div>
+
   );
 };
 

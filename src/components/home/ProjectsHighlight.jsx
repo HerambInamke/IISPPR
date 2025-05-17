@@ -9,7 +9,7 @@ const ProjectsHighlight = () => {
       id: 1,
       title: 'Forest Conservation',
       description: 'Protecting and restoring native forest ecosystems through sustainable practices.',
-      image: '/src/assets/images/projects/forest.jpg',
+      image: '/src/assets/about/projects/forest.jpg',
       category: 'Conservation',
       location: 'Western Ghats'
     },
@@ -17,7 +17,7 @@ const ProjectsHighlight = () => {
       id: 2,
       title: 'Community Garden',
       description: 'Creating sustainable urban gardens to promote local food production.',
-      image: '/src/assets/images/projects/garden.jpg',
+      image: '/src/assets/about/projects/garden.jpg',
       category: 'Community',
       location: 'Urban Centers'
     },
@@ -25,7 +25,7 @@ const ProjectsHighlight = () => {
       id: 3,
       title: 'Wildlife Protection',
       description: 'Safeguarding endangered species and their natural habitats.',
-      image: '/src/assets/images/projects/wildlife.jpg',
+      image: '/src/assets/about/projects/wildlife.jpg',
       category: 'Wildlife',
       location: 'National Parks'
     }

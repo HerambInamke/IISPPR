@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/images/hero/hero-bg.jpg')" }}
+        style={{ backgroundImage: "url('/src/assets/about/hero/hero-bg.jpg')" }}
       />
       
       <div className="container mx-auto px-4 relative z-20 text-white">

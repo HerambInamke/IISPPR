@@ -6,25 +6,25 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      image: '/src/assets/images/gallery/gallery1.jpg',
+      image: '/src/assets/about/gallery/gallery1.jpg',
       title: 'Forest Conservation',
       category: 'Nature'
     },
     {
       id: 2,
-      image: '/src/assets/images/gallery/gallery2.jpg',
+      image: '/src/assets/about/gallery/gallery2.jpg',
       title: 'Community Workshop',
       category: 'Community'
     },
     {
       id: 3,
-      image: '/src/assets/images/gallery/gallery3.jpg',
+      image: '/src/assets/about/gallery/gallery3.jpg',
       title: 'Wildlife Sanctuary',
       category: 'Wildlife'
     },
     {
       id: 4,
-      image: '/src/assets/images/gallery/gallery4.jpg',
+      image: '/src/assets/about/gallery/gallery4.jpg',
       title: 'Tree Planting',
       category: 'Conservation'
     }

@@ -9,21 +9,21 @@ const TestimonialsSection = () => {
       id: 1,
       name: 'Sarah Johnson',
       role: 'Community Volunteer',
-      image: '/src/assets/images/testimonials/testimonial1.jpg',
+      image: '/src/assets/about/testimonials/testimonial1.jpg',
       quote: "Being part of Prakriti's initiatives has been incredibly rewarding. The impact we've made in our community is truly inspiring."
     },
     {
       id: 2,
       name: 'Michael Chen',
       role: 'Environmental Scientist',
-      image: '/src/assets/images/testimonials/testimonial2.jpg',
+      image: '/src/assets/about/testimonials/testimonial2.jpg',
       quote: "The scientific approach and dedication to environmental conservation shown by Prakriti is exemplary. Their work is making a real difference."
     },
     {
       id: 3,
       name: 'Priya Sharma',
       role: 'Local Resident',
-      image: '/src/assets/images/testimonials/testimonial3.jpg',
+      image: '/src/assets/about/testimonials/testimonial3.jpg',
       quote: "The community gardens project has transformed our neighborhood. We're now growing our own food and learning sustainable practices."
     }
   ];
