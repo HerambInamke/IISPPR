@@ -59,13 +59,13 @@ const StatCard = ({ icon, value, label, progress }) => (
       </div>
     </div>
     <h3 className="text-4xl font-bold text-black m-5">{value}</h3>
-    <p className="text-[#555555]">{label}</p>
+    <p className="text-[#555555] text-center">{label}</p>
   </div>
 );
 
 const StatsSection = () => {
   return (
-      <div className="flex flex-col items-center pt-14">
+      <div className="flex flex-col items-center pt-14 max-w-screen-xl mx-auto">
         <h2 className="font-[playfair] text-4xl font-bold text-gray-900">Our Reach in Numbers</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-8 container mt-5 mx-auto">
           {stats.map((stat, index) => (
