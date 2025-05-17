@@ -27,4 +27,11 @@
   .btn-outline {
     @apply border-2 border-primary text-primary hover:bg-primary hover:text-white focus:ring-primary;
   }
-} 
+}
+
+/* frosted-glass effect */
+.frosted-container {
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+}

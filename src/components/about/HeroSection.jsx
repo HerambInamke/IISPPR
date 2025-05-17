@@ -1,11 +1,15 @@
 import React from 'react';
-import {images} from "../../assets/about/images.js";
+import {images} from "./images.js";
 import MissionCard from "./MissionCard.jsx";
 
 const FrostedTextBgOutline = ({text}) => {
     return (
         <div
-            className="px-4 sm:px-6 lg:px-9 py-2 sm:py-3 lg:py-4  bg-white/10 rounded-full outline outline-1 outline-offset-[-1px] outline-white backdrop-blur-md inline-flex justify-start items-start gap-2.5 text-white">
+            className="frosted-container px-4 sm:px-6 lg:px-9 py-2 sm:py-3 lg:py-4 bg-white/10 rounded-full backdrop-blur-md inline-flex justify-start items-start gap-2.5 text-white"
+            style={{
+                border: '1px solid rgba(255, 255, 255, 1)',
+            }}
+        >
             <p className="font-[montserrat] text-base sm:text-xl lg:text-2xl font-normal">
                 {text}
             </p>

@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^12.12.1",
     "keen-slider": "^6.8.6",
     "lucide-react": "^0.510.0",
     "react": "^19.1.0",

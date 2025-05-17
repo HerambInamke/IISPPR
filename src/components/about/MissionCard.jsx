@@ -6,7 +6,11 @@ const MissionCard = ({ learn_more }) => {
 
     return (
         <section
-            className="p-6 sm:p-8 lg:p-12 text-white w-[90%] sm:w-[60%] lg:w-[50%] xl:w-[45%] 2xl:w-[40%] h-fit bg-white/10 rounded-[1.5rem] sm:rounded-[2.1rem] lg:rounded-[3rem] outline outline-1 outline-offset-[-1px] outline-white backdrop-blur-lg">
+            className="frosted-container p-6 sm:p-8 lg:p-12 text-white w-[90%] sm:w-[60%] lg:w-[50%] xl:w-[45%] 2xl:w-[40%] h-fit bg-white/10 rounded-[1.5rem] sm:rounded-[2.1rem] lg:rounded-[3rem] backdrop-blur-lg"
+            style={{
+                border: '1px solid rgba(255, 255, 255, 1)',
+            }}
+        >
             <h2 className="font-[playfair] font-medium text-3xl sm:text-4xl lg:text-5xl xl:text-6xl mb-4 sm:mb-6 lg:mb-8 xl:mb-10 text-right">Our
                 Mission</h2>
             <p className="font-[montserrat] font-light text-sm sm:text-base lg:text-lg xl:text-xl text-right">We aim to promote inclusive, high-quality education and lifelong learning for all—especially students and elders—by providing humanitarian support, reconnecting underserved children to schooling, and advancing research aligned with SDG Goal 4: Quality Education.</p>
