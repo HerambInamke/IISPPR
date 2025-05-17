@@ -2,7 +2,8 @@ import React from 'react';
 import {images} from "../components/about/images/images.js"
 import HeroSection from "../components/about/HeroSection.jsx";
 import Description from "../components/about/Description.jsx";
-import StatsSection from "../components/home/StatsSection.jsx";
+import StatsSection from "../components/about/StatsSection.jsx";
+import GalleryCarousel from "../components/about/Gallery.jsx";
 
 
 const About = () => {
@@ -15,6 +16,10 @@ const About = () => {
                    <Description/>
                 </div>
                 <StatsSection/>
+                <div className="pt-40">
+                    <GalleryCarousel/>
+                </div>
+
                 <img src={images.bottom} className="w-full absolute bottom-100" alt="Bottom decoration"/>
             </section>
         </div>
