@@ -4,7 +4,7 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 const Layout = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const location = useLocation();
-    
+
     const isActive = (path) => {
         if (path === '/' && location.pathname === '/') {
             return true;
@@ -22,7 +22,7 @@ const Layout = () => {
                 <nav className="container mx-auto px-4 py-3 sm:py-4">
                     <div className="flex justify-between items-center">
                         <Link to="/" className="text-xl sm:text-2xl font-bold text-primary">IISPPR</Link>
-                        
+
                         {/* Desktop Navigation */}
                         <ul className="hidden md:flex space-x-6 lg:space-x-8">
                             <li><Link to="/" className={`font-medium transition-colors ${isActive('/') ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}>Home</Link></li>
@@ -32,9 +32,9 @@ const Layout = () => {
                             <li><Link to="/testimonials" className={`font-medium transition-colors ${isActive('/testimonials') ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}>Testimonials</Link></li>
                             <li><Link to="/contact" className={`font-medium transition-colors ${isActive('/contact') ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}>Contact</Link></li>
                         </ul>
-                        
+
                         {/* Mobile Menu Button */}
-                        <button 
+                        <button
                             className="md:hidden focus:outline-none text-primary"
                             onClick={toggleMobileMenu}
                             aria-label="Toggle menu"
@@ -44,7 +44,7 @@ const Layout = () => {
                             </svg>
                         </button>
                     </div>
-                    
+
                     {/* Mobile Menu */}
                     {mobileMenuOpen && (
                         <div className="md:hidden py-4 bg-white border-t mt-3">
@@ -60,11 +60,11 @@ const Layout = () => {
                     )}
                 </nav>
             </header>
-            
+
             <main className="flex-grow">
                 <Outlet />
             </main>
-            
+
             <footer className="bg-primary text-white py-8 sm:py-12">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -83,18 +83,19 @@ const Layout = () => {
                         </div>
                         <div>
                             <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Contact</h4>
-                            <p className="text-gray-300 text-sm sm:text-base">123 Nature Street</p>
-                            <p className="text-gray-300 text-sm sm:text-base">Green City, Earth</p>
-                            <p className="text-gray-300 text-sm sm:text-base">info@greeninitiative.org</p>
-                            <p className="text-gray-300 text-sm sm:text-base">+1 (555) 123-4567</p>
+                            <p className="text-gray-300 text-sm sm:text-base">Office No. 30 Nihad Plaza, Opposite Zakir Hussain School, Civil lines, Near AMU, Aligarh 202001</p>
+                            <p className="text-gray-300 text-sm sm:text-base font-semibold mt-2">Call us</p>
+                            <p className="text-gray-300 text-sm sm:text-base">+91 95287 82464</p>
+                            <p className="text-gray-300 text-sm sm:text-base font-semibold mt-2">Email</p>
+                            <p className="text-gray-300 text-sm sm:text-base">iisppresearch@gmail.com</p>
                         </div>
                         <div>
                             <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Follow Us</h4>
                             <div className="flex space-x-4">
-                                <a href="#" className="bg-primary-light hover:bg-accent p-2 rounded-full transition-colors text-white">F</a>
-                                <a href="#" className="bg-primary-light hover:bg-accent p-2 rounded-full transition-colors text-white">T</a>
-                                <a href="#" className="bg-primary-light hover:bg-accent p-2 rounded-full transition-colors text-white">I</a>
-                                <a href="#" className="bg-primary-light hover:bg-accent p-2 rounded-full transition-colors text-white">L</a>
+                                <a target='_blank' href="https://www.youtube.com/@iisppr" className="bg-primary-light hover:bg-accent p-2 rounded-full transition-colors text-white">Y</a>
+                                <a target='_blank' href="https://x.com/iispp_research" className="bg-primary-light hover:bg-accent p-2 rounded-full transition-colors text-white">T</a>
+                                <a target='_blank' href="https://www.instagram.com/iisppr?igsh=MWNnNG03NnVyYWI0Zw==" className="bg-primary-light hover:bg-accent p-2 rounded-full transition-colors text-white">I</a>
+                                <a target='_blank' href="https://www.linkedin.com/company/international-institute-of-sdg-s-and-public-policy-research/" className="bg-primary-light hover:bg-accent p-2 rounded-full transition-colors text-white">L</a>
                             </div>
                         </div>
                     </div>
