@@ -87,9 +87,9 @@ const Hero = () => {
     <section className="relative z-20 flex-grow w-full min-h-[90vh] bg-[url('/home/herobg.webp')] bg-cover bg-center bg-fixed">
       {/* Enhanced gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60 z-10"></div>
-      
+
       {/* Animated background elements */}
-      <motion.div 
+      <motion.div
         className="absolute inset-0 z-0"
         style={{ y, opacity }}
       >
@@ -105,7 +105,7 @@ const Hero = () => {
           variants={staggerContainer}
           className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left space-y-8"
         >
-          <motion.button 
+          <motion.button
             variants={fadeInUp}
             className="group bg-transparent relative px-6 py-3 border border-white rounded-full text-sm text-white overflow-hidden transition-all duration-300 hover:scale-105"
           >
@@ -113,14 +113,14 @@ const Hero = () => {
             <div className="absolute inset-0 bg-accent transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
           </motion.button>
 
-          <motion.div 
+          <motion.div
             variants={fadeInUp}
             className="text-white space-y-4"
           >
             <TypingText lines={missionLines} className="space-y-2" />
           </motion.div>
 
-          <motion.div 
+          <motion.div
             variants={fadeInUp}
             className="space-y-4 max-w-xl"
           >
@@ -130,18 +130,18 @@ const Hero = () => {
             </p>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             variants={fadeInUp}
             className="flex flex-wrap gap-6"
           >
-            <Link 
+            <Link
               to="/projects"
               className="group relative px-8 py-3 bg-accent text-primary font-semibold rounded-full overflow-hidden transition-all duration-300 hover:scale-105"
             >
               <span className="relative z-10">Our Projects</span>
               <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
             </Link>
-            <Link 
+            <Link
               to="/about"
               className="group relative px-8 py-3 border-2 border-white text-white font-semibold rounded-full overflow-hidden transition-all duration-300 hover:scale-105"
             >

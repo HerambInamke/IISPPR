@@ -13,10 +13,12 @@
     "framer-motion": "^12.12.1",
     "keen-slider": "^6.8.6",
     "lucide-react": "^0.511.0",
+    "pdfjs-dist": "^5.3.93",
     "react": "^19.1.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
+    "react-pdf": "^10.0.1",
     "react-router-dom": "^7.6.0",
     "styled-components": "^6.1.18"
   },
